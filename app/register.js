@@ -1,11 +1,11 @@
-import { Stack, useRouter } from "expo-router";
-import { Button, Text, View, TextInputIOSProps } from "react-native";
+// import { Stack, useRouter } from "expo-router";
+import { Button, View } from "react-native";
 
 const Register = () => {
-  const router = useRouter();
+  console.log("log")
   return (
    <View>
-    <Text>Register</Text>
+    <Button>Register</Button>
    </View>
   );
 };

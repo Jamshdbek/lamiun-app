@@ -2,9 +2,10 @@ import { Tabs } from "expo-router/tabs";
 import { Entypo, AntDesign, Fontisto } from "@expo/vector-icons";
 export default function TabsLayout() {
   return (
-      <Tabs initialRouteName="home">
+      <Tabs initialRouteName="index">
         <Tabs.Screen
-          name="home"
+         
+          name="index"
           options={{
             tabBarIcon: () => <Entypo name="home" size={24} color="black" />,
           }}
