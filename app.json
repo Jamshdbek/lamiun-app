@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "lamiun",
-    "slug": "lamiun",
+    "name": "lamiun-app",
+    "slug": "lamiun-app",
+    "scheme": "nilufar-scheme",
     "version": "1.0.0",
-    "scheme": "lamiun",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -26,6 +28,8 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
